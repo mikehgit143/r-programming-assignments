@@ -6,3 +6,10 @@
 
 Repository for R Programming Assignments.
 **Blog:** https://rprogrammingjournalmichaelholstein.blogspot.com 
+Error: object 'assignment' not found
+
+Wrong names in the function.
+
+myMean <- function(assignment2) {
+  return(sum(assignment2) / length(assignment2))
+}
