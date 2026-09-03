@@ -5,3 +5,4 @@
 **Institution:** University of South Florida, School of Information
 
 Repository for R Programming Assignments.
+**Blog:** https://rprogrammingjournalmichaelholstein.blogspot.com 
