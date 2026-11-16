@@ -1,0 +1,39 @@
+---
+title: "My R Markdown Primer"
+author: "Michael Holstein"
+date: "2026-11-16"
+output: html_document
+---
+
+## What is R Markdown?
+
+R Markdown is a way to combine plain text, R code, and math in one file. When you knit it, R runs the code and turns the file into an HTML report.
+
+The code and explanation stay together, so the analysis can be rerun and the results updated from the same document.
+
+## A quick math example
+
+Inline math looks like this: $\alpha + \beta = \gamma$.
+
+A displayed equation looks like this:
+
+$$
+\bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i
+$$
+
+## Explore the data
+
+```{r}
+data(mtcars)
+head(mtcars)
+summary(mtcars$mpg)
+```
+
+## Weight and MPG
+
+```{r}
+plot(mtcars$wt, mtcars$mpg,
+     main = "Weight vs MPG",
+     xlab = "Weight",
+     ylab = "MPG")
+```
